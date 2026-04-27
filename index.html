@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>簡易射擊遊戲</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-shell">
+    <h1>簡易射擊遊戲</h1>
+    <div class="info">
+      <span>移動：← / → / A / D</span>
+      <span>射擊：空白鍵</span>
+      <span>重新開始：R</span>
+    </div>
+    <canvas id="gameCanvas" width="480" height="640"></canvas>
+    <div class="status" id="status"></div>
+    <div class="scoreboard">
+      <span>分數：<span id="score">0</span></span>
+      <span>剩餘生命：<span id="lives">3</span></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
